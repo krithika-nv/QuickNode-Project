@@ -14,4 +14,5 @@ then
     mv /tmp/daemon.service /etc/systemd/system/
     echo "Created systemd service."
     systemctl daemon-reload
+    systemctl enable daemon.service
 fi
