@@ -26,7 +26,7 @@ Used this majorly for scalability of inventory and while keeping deployments sim
 ## What else would I have added if I weren't lazy?
 I would have: 
 - added Prometheus metric to at least count the number of incoming GET requests
-- separated the repos into application code (Go, main pipeline/workflow) and infra code (playbooks)
+- created separate repos for application code (Go, main pipeline/workflow) and infra code (playbooks)
 - dedicated user and group for deployment instead of just using root directly
 - named the daemon and some vars better
 - better Go code (obviously)
