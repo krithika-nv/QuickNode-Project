@@ -1,0 +1,23 @@
+---
+- name: Deployment
+  hosts: linuxservers
+  become_user: root
+  remote_user: root
+  tasks:
+    - name: Pre-pre-deployment 
+      copy:
+        src: daemon.service
+        dest: /tmp
+        force: yes
+    - name: Pre-deployment checks
+      script: predeployment.sh
+    - name: Copy Go binary
+      copy:
+        src: ../cmd/daemon/main
+        dest: /root/daemon
+        force: yes
+        mode: u=rx,g=r,o=r
+    - name: Restart daemon
+      systemd:
+        name: daemon
+        state: restarted

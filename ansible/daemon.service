@@ -1,0 +1,10 @@
+[Unit]
+Description=Service to start the daemon
+
+[Service]
+User=root
+ExecStart=/root/daemon/main
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
