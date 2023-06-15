@@ -1,6 +1,6 @@
 # Take Home Project - QuickNode - Krithika Nagarajan
 
-This project fulfils all the given requirements. Workflow gets triggered whenever there's a push to the main branch.
+This is a git repo and the deployment is driven by GitHub workflow and Ansible. This project fulfils all the given requirements. Workflow gets triggered whenever there's a push to the main branch.
 curl http://192.241.195.59:8080/test
 
 #### Check: 
@@ -29,5 +29,6 @@ I would have:
 - separated the repos into application code (Go, main pipeline/workflow) and infra code (playbooks)
 - dedicated user and group for deployment instead of just using root directly
 - named the daemon and some vars better
+- better Go code (obviously)
 
 Time taken to complete: 1 full day. This is because I was fairly new to Ansible and Github workflows and needed quite a bit of learning and digging.
