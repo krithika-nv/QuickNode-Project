@@ -31,4 +31,4 @@ I would have:
 - named the daemon and some vars better
 - better Go code (obviously)
 
-Time taken to complete: 1 full day. This is because I was fairly new to Ansible and Github workflows and needed quite a bit of learning and digging.
+Time taken to complete: 1 full day. This is because I was fairly new to Ansible and Github workflows and needed quite a bit of learning and digging. libcrypto error took most of my time!
