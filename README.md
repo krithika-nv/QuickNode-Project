@@ -1,9 +1,9 @@
 # Take Home Project - QuickNode - Krithika Nagarajan
 
-This is a git repo and the deployment is driven by GitHub workflow and Ansible. Adding link to the repo in case the reviewers wish to open the tar file first: https://github.com/krithika-nv/QuickNode-Project. This project fulfils all the given requirements. Workflow gets triggered whenever there's a push to the main branch.
-curl http://192.241.195.59:8080/test
+This is a git repo and the deployment is driven by GitHub workflow and Ansible. Workflow gets triggered whenever there's a push to the main branch.
+Sample curl command: curl http://192.241.195.59:8080/test
 
-#### Check: 
+#### Checklist: 
 - Daemon responds with 329d4feb-c5c0-4de5-b10c-701b44fbec4f at the /test URI ✅
 - Automate the deployment of the daemon ✅
 - Bare minimum “productionized” ✅
