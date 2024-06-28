@@ -2,7 +2,7 @@
 
 #### Description:
 
-Sample bare minimum “productionized” working prototype for guiding deployments driven by GitHub actions workflow and Ansible. Daemon responds with a code to a GET request at the /test URI ( eg http://192.241.195.59/test ). Deployment of the daemon to the inventory Linux server is automated. Workflow is triggered whenever there's a push to the main branch.
+Sample bare minimum “productionized” working prototype for getting started with deployments driven by GitHub actions workflow and Ansible. Daemon responds with a code to a GET request at the /test URI ( eg http://192.241.195.59/test ). Deployment of the daemon to the inventory Linux server is automated. Workflow is triggered whenever there's a push to the main branch.
 Sample curl command: curl http://192.241.195.59:8080/test
 
 #### Checklist: 
